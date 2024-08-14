@@ -1,0 +1,15 @@
+C:\Users\newka\OneDrive\Área de Trabalho\ADS\Back-End\BackEnd_ADS\PrimeiraAula\Code\StarBucksProject\bin\Debug\net8.0\StarBucksProject.exe
+C:\Users\newka\OneDrive\Área de Trabalho\ADS\Back-End\BackEnd_ADS\PrimeiraAula\Code\StarBucksProject\bin\Debug\net8.0\StarBucksProject.deps.json
+C:\Users\newka\OneDrive\Área de Trabalho\ADS\Back-End\BackEnd_ADS\PrimeiraAula\Code\StarBucksProject\bin\Debug\net8.0\StarBucksProject.runtimeconfig.json
+C:\Users\newka\OneDrive\Área de Trabalho\ADS\Back-End\BackEnd_ADS\PrimeiraAula\Code\StarBucksProject\bin\Debug\net8.0\StarBucksProject.dll
+C:\Users\newka\OneDrive\Área de Trabalho\ADS\Back-End\BackEnd_ADS\PrimeiraAula\Code\StarBucksProject\bin\Debug\net8.0\StarBucksProject.pdb
+C:\Users\newka\OneDrive\Área de Trabalho\ADS\Back-End\BackEnd_ADS\PrimeiraAula\Code\StarBucksProject\obj\Debug\net8.0\StarBucksProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\newka\OneDrive\Área de Trabalho\ADS\Back-End\BackEnd_ADS\PrimeiraAula\Code\StarBucksProject\obj\Debug\net8.0\StarBucksProject.AssemblyInfoInputs.cache
+C:\Users\newka\OneDrive\Área de Trabalho\ADS\Back-End\BackEnd_ADS\PrimeiraAula\Code\StarBucksProject\obj\Debug\net8.0\StarBucksProject.AssemblyInfo.cs
+C:\Users\newka\OneDrive\Área de Trabalho\ADS\Back-End\BackEnd_ADS\PrimeiraAula\Code\StarBucksProject\obj\Debug\net8.0\StarBucksProject.csproj.CoreCompileInputs.cache
+C:\Users\newka\OneDrive\Área de Trabalho\ADS\Back-End\BackEnd_ADS\PrimeiraAula\Code\StarBucksProject\obj\Debug\net8.0\StarBucksProject.sourcelink.json
+C:\Users\newka\OneDrive\Área de Trabalho\ADS\Back-End\BackEnd_ADS\PrimeiraAula\Code\StarBucksProject\obj\Debug\net8.0\StarBucksProject.dll
+C:\Users\newka\OneDrive\Área de Trabalho\ADS\Back-End\BackEnd_ADS\PrimeiraAula\Code\StarBucksProject\obj\Debug\net8.0\refint\StarBucksProject.dll
+C:\Users\newka\OneDrive\Área de Trabalho\ADS\Back-End\BackEnd_ADS\PrimeiraAula\Code\StarBucksProject\obj\Debug\net8.0\StarBucksProject.pdb
+C:\Users\newka\OneDrive\Área de Trabalho\ADS\Back-End\BackEnd_ADS\PrimeiraAula\Code\StarBucksProject\obj\Debug\net8.0\StarBucksProject.genruntimeconfig.cache
+C:\Users\newka\OneDrive\Área de Trabalho\ADS\Back-End\BackEnd_ADS\PrimeiraAula\Code\StarBucksProject\obj\Debug\net8.0\ref\StarBucksProject.dll
