@@ -1,0 +1,15 @@
+C:\Users\newka\OneDrive\Área de Trabalho\ADS\Back-End\BackEnd_ADS\StarBucks\bin\Debug\net8.0\StarBucks.exe
+C:\Users\newka\OneDrive\Área de Trabalho\ADS\Back-End\BackEnd_ADS\StarBucks\bin\Debug\net8.0\StarBucks.deps.json
+C:\Users\newka\OneDrive\Área de Trabalho\ADS\Back-End\BackEnd_ADS\StarBucks\bin\Debug\net8.0\StarBucks.runtimeconfig.json
+C:\Users\newka\OneDrive\Área de Trabalho\ADS\Back-End\BackEnd_ADS\StarBucks\bin\Debug\net8.0\StarBucks.dll
+C:\Users\newka\OneDrive\Área de Trabalho\ADS\Back-End\BackEnd_ADS\StarBucks\bin\Debug\net8.0\StarBucks.pdb
+C:\Users\newka\OneDrive\Área de Trabalho\ADS\Back-End\BackEnd_ADS\StarBucks\obj\Debug\net8.0\StarBucks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\newka\OneDrive\Área de Trabalho\ADS\Back-End\BackEnd_ADS\StarBucks\obj\Debug\net8.0\StarBucks.AssemblyInfoInputs.cache
+C:\Users\newka\OneDrive\Área de Trabalho\ADS\Back-End\BackEnd_ADS\StarBucks\obj\Debug\net8.0\StarBucks.AssemblyInfo.cs
+C:\Users\newka\OneDrive\Área de Trabalho\ADS\Back-End\BackEnd_ADS\StarBucks\obj\Debug\net8.0\StarBucks.csproj.CoreCompileInputs.cache
+C:\Users\newka\OneDrive\Área de Trabalho\ADS\Back-End\BackEnd_ADS\StarBucks\obj\Debug\net8.0\StarBucks.sourcelink.json
+C:\Users\newka\OneDrive\Área de Trabalho\ADS\Back-End\BackEnd_ADS\StarBucks\obj\Debug\net8.0\StarBucks.dll
+C:\Users\newka\OneDrive\Área de Trabalho\ADS\Back-End\BackEnd_ADS\StarBucks\obj\Debug\net8.0\refint\StarBucks.dll
+C:\Users\newka\OneDrive\Área de Trabalho\ADS\Back-End\BackEnd_ADS\StarBucks\obj\Debug\net8.0\StarBucks.pdb
+C:\Users\newka\OneDrive\Área de Trabalho\ADS\Back-End\BackEnd_ADS\StarBucks\obj\Debug\net8.0\StarBucks.genruntimeconfig.cache
+C:\Users\newka\OneDrive\Área de Trabalho\ADS\Back-End\BackEnd_ADS\StarBucks\obj\Debug\net8.0\ref\StarBucks.dll
