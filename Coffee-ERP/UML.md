@@ -1,26 +1,33 @@
-```mermaid
 
+```mermaid 
 classDiagram
     direction LR
 
-    class Pedido{
-        - int NumeroPedido
-        - string Cliente
-        - List <Item>
-        - decimal Total
-        + void AdicionarItem(Item Item)
-        + void RemoverItem(Item Item)
-        + void CalcularTotal()
+    class ERP {
+        +registrarPedido()
+        +gerarRelatorioVendas()
+        +emitirAlertaEstoqueBaixo()
     }
 
-    class Item{
-        - string Nome
-        - decimal Preco
-        + decimal CalcularPreco()
+    class Pedido {
+        -idPedido: int
+        -dataHora: Date
+        -total: float
+        +registrar()
+        +atualizarEstoque()
     }
 
-    class Bebida{
-        - string Tamanho
+    class Item {
+        -idProduto: int
+        -nome: String
+        -quantidadeEstoque: int
+        -preco: float
+        +atualizarEstoque()
+        +verificarEstoque()
+    }
+
+    class Sobremesa{
+        - string Sabor
         + decimal CalcularPreco()
     }
 
@@ -29,17 +36,28 @@ classDiagram
         + decimal CalcularPreco()
     }
 
-    class Sobremesa{
-        - string Sabor
+    class Bebida{
+        - string Tamanho
         + decimal CalcularPreco()
     }
 
-    Pedido --> Item
+    class RelatorioVendas {
+        -dataInicio: Date
+        -dataFim: Date
+        -totalVendas: float
+        +gerarRelatorio()
+    }
 
-    Bebida --> Item
+    class Atendente {
+        -nome: String
+        +registrarPedido()
+    }
 
-    Sobremesa --> Item
+    class Gerente {
+        -nome: String
+        +visualizarRelatorio()
+    }
 
-    Cafe --> Bebida
-
+    Cafe <-- Bebida
+    
 ```

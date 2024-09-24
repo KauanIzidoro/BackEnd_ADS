@@ -22,6 +22,7 @@ public class Program
 
         app.MapGet("/", () => "Status: OK!");
         app.MapGet("/orders", () => order); 
+        Console.WriteLine(order);
         app.Run();
     }
 }
