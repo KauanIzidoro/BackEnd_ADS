@@ -42,6 +42,34 @@ class Program
         Console.WriteLine(products[^1]);
         Console.WriteLine(products[^2]);
 
+        // Terceira Solução:
+        double[] res = new double[2] {0,0};
+        for (int i=0; i<products.Length; i++)
+        {
+            for (int j=i+1;j<products.Length;j++)
+            {
+                double aux_maior = (products[i].Price + products[j].Price + Math.Abs(products[i].Price - products[j].Price))/2;
+
+                if (aux_maior > res[0])
+                {
+                    res[1] = res[0];
+                    res[0] = aux_maior;
+                }
+                else if(aux_maior > res[1])
+                {
+                    res[1] = aux_maior;
+                }
+
+            }
+        }
+        Console.WriteLine("\nTerceira Solucao:");
+        // for (int l=0;l<res.Length;l++)
+        // {
+        //     Console.WriteLine(res[l]);
+
+        // }
+        Console.WriteLine(res[0] + "," + res[1]);
+
 
 
 
