@@ -43,6 +43,11 @@ class Program
 
 
         // Terceira Solução:
+        // Esta solução é baseada em brute force, para encontrar o produto mais caro
+        // podemos utilizar da seguinte fórmula:
+        // Dado dois valores a, b podemos encontrar o maior entre eles fazendo:
+        // (a+b+|a-b|)/2 
+        // o retorno desta fórmula será sempre o maior valor entre os dois números (a,b).
         double[] res = new double[2] { 0, 0 };
         for (int i = 0; i < products.Length; i++)
         {
@@ -63,12 +68,6 @@ class Program
             }
         }
         Console.WriteLine("\nTerceira Solucao:");
-        // for (int l=0;l<res.Length;l++)
-        // {
-        //     Console.WriteLine(res[l]);
-
-        // }
-        // Console.WriteLine(Math.Round(res[0],2) + "," + Math.Round(res[1],2));
         for (int k = 0; k < products.Length; k++)
         {
             if (products[k].Price == res[0] || products[k].Price == res[1])
@@ -81,11 +80,6 @@ class Program
         {
             aux_products[i] = products[i].Price;
         }
-        // for (int i = 0; i < aux_products.Length; i++)
-        // {
-        //     Console.WriteLine(aux_products[i]);
-        // }
-
         double[] ans = new double[2] { 0, 0 };
         for (int i = 0; i < products.Length; i++)
         {
@@ -105,9 +99,6 @@ class Program
 
             }
         }
-        // Console.WriteLine(Math.Round(ans[1],2) + " , " + Math.Round(ans[0],2));
-        // Console.WriteLine(Math.Round(res[0],2) + " , " +  Math.Round(res[1],2));
-
         // Produto mais caro
         for(int i=0;i<products.Length;i++)
         {
