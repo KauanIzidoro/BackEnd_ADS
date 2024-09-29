@@ -5,7 +5,7 @@ class Program
     public static void Main(string[] args)
     {
         Random rnd = new Random();
-        // Array que representa o estoque de produtos
+        // Array que representa o estoque de produtos usados no Exercício 1:
         Product[] products = new Product[]
         {
             new Product("Laptop", rnd.Next(1000, 5000)*rnd.NextDouble()),
@@ -14,8 +14,7 @@ class Program
             new Product("Samsung Galaxy", rnd.Next(199, 5000)*rnd.NextDouble()),
             new Product("Batata temperada", rnd.Next(399, 5000)*rnd.NextDouble())
         };
-
-        // Primeira solução:
+        // Primeira solução [Exercício 1]:
         // OrderByDescending() é um método LINQ (Language-Integrated Query), 
         // que são recursos da Classe Colletions e ajudam na tarefa de consultas, ordenações e outra operação semelhante.
         // Como parâmetro do método, note que existe uma expressão lambda (p => p.Price), que significa: 
@@ -30,8 +29,7 @@ class Program
         {
             Console.WriteLine(product.ToString());
         }
-
-        // Segunda Solução:
+        // Segunda Solução [Exercício 1]:
         // Como foi implementada a interface IComparable<T> na Classe Product 
         // estabelecemos que a comparação será feita com base no atributo Price (Uso do CompareTo()), e 
         // é possível usar o método Array.Sort() para ordenar de forma crescente o array de produtos
@@ -40,9 +38,7 @@ class Program
         Array.Sort(products);
         Console.WriteLine(products[^1]);
         Console.WriteLine(products[^2]);
-
-
-        // Terceira Solução:
+        // Terceira Solução [Exercício 1]:
         // Esta solução é baseada em brute force, para encontrar o produto mais caro
         // podemos utilizar da seguinte fórmula:
         // Dado dois valores a, b podemos encontrar o maior entre eles fazendo:
@@ -115,6 +111,9 @@ class Program
                 Console.WriteLine("Product: " + products[i].Name + ", Price: " + Math.Round(ans[1],2));
             }
         }
+        
+
+
 
 
 
