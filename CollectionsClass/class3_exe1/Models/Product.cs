@@ -1,8 +1,8 @@
 class Product : IComparable<Product>
 {
     // Atributos
-    public string Name {get; private set; }
-    public double Price {get; private set; }
+    public string Name {get; set; }
+    public double Price {get; set; }
 
     // Construtor
     public Product(string name, double price)
