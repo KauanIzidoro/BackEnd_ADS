@@ -35,7 +35,7 @@ class Program
         //Segunda solução:
         /*  Note que foi realizado a interface IComparable<> na Classe Product assim estabelecendo
             que a forma de comparação será feita com o atributo Price, ou seja, é possível usar o método Sort() para ordenar
-            os produtos no array. Observe o uso do operador índice (^) que retorna o (array.Length - n-ésimo) do array.
+            os produtos no array. Observe o uso do operador índice (^) que retorna o (array.Length - n-ésimo) do array.kf
             (disponível em C# 8.*).
         */
         Console.WriteLine("\nSegunda solução: ");
