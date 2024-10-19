@@ -20,8 +20,11 @@ public class Program
         order.AddItem(drink);
         order.AddItem(dessert);
 
+        string sample_json = "{\n id: 93321\n time: 10/17/2024 21:34:45\n room: B2-4 \n}";
+
         app.MapGet("/", () => "Status: OK!");
-        app.MapGet("/orders", () => order); 
+        app.MapGet("/orders", () => order);
+        app.MapGet("/room4", () => sample_json);
         Console.WriteLine(order);
         app.Run();
     }
