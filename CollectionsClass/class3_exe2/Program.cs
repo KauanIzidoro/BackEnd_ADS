@@ -5,7 +5,7 @@ public class Program
     public static void Main()
     {
         var stockManager = new StockManager();
-
+ 
         while (true)
         {
             Console.WriteLine("\nEscolha uma opção abaixo:");
