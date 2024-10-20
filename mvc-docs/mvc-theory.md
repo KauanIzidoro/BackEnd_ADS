@@ -12,3 +12,4 @@ A Visualização é responsável pela interface do usuário, ou seja, pela apres
 O Controlador atua como intermediário entre o modelo e a visualização. Ele lida com as solicitações do usuário, processa a entrada, chama os métodos apropriados no `Model` e, em seguida, escolhe a `View` apropriada para exibir a resposta.
 
 A vantagem da arquitetura `MVC` é a separação clara de responsabilidades, o que facilita a manutenção, teste e escalabilidade da aplicação. No `ASP.NET Core`, o MVC é altamente flexível e extensível, tornando-o ideal para a construção de aplicações `WEB` modernas.
+
