@@ -5,17 +5,12 @@ namespace Cafeteria.Controllers;
 
 public class ProductsController : Controller
 {
-    // 
-    // GET: /Products/
-    public string Index()
+    public IActionResult Index()
     {
-        return "Index method...";
+        return View();
     }
-    // 
-    // GET: /Products/Welcome/
-    // Requires using System.Text.Encodings.Web;
-    public string Welcome(string name, int numTimes = 1)
+    public string Welcome(string name, int ID = 4)
     {
-        return HtmlEncoder.Default.Encode($"Hello {name}, NumTimes is: {numTimes}");
+        return HtmlEncoder.Default.Encode($"Hello {name}, ID: {ID}");
     }
 }
