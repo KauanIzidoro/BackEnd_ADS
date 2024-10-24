@@ -1,4 +1,9 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Cafeteria.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<CafeteriaContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("CafeteriaContext") ?? throw new InvalidOperationException("Connection string 'CafeteriaContext' not found.")));
 
 builder.Services.AddControllersWithViews();
 
