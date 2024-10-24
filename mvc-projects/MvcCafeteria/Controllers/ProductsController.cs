@@ -85,6 +85,7 @@ public class ProductsController : Controller
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Create([Bind("Id,Name,Quantity,Category,Price")] Product product)
+    // Método para criação de produtos via formulário
     {
         if (ModelState.IsValid)
         {
@@ -110,6 +111,27 @@ public class ProductsController : Controller
         }
         return View(product);
     }
+    // Método  para criação de produtos via URL params.
+
+    // public async Task<IActionResult> CreateFromParams(int id, string name, int qtd, string category, decimal price)
+    // {
+    //     Product p = new Product
+    //     {
+    //         Id = id,
+    //         Name = name,
+    //         Quantity = qtd,
+    //         Category = category,
+    //         Price = price
+    //     };
+
+    //     if(ModelState.IsValid)
+    //     {
+    //         _context.Add(p);
+    //         await _context.SaveChangesAsync();
+    //         return RedirectToAction(nameof(Index));
+    //     }
+    //     return View(p);
+    // }
 
     // POST: Products/Edit/5
     // To protect from overposting attacks, enable the specific properties you want to bind to.
