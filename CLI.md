@@ -18,3 +18,7 @@ aplicativo console, o parâmetro -n define o nome
 > dotnet run - Executa o aplicativo .NET no diretório atual, usado para testar o projeto
 diretamente, sem precisar compilar manualmente.
 
+Design Patterns: 
+
+- CQRS
+- Unit of Work
